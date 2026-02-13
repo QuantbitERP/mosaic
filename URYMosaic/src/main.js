@@ -3,10 +3,10 @@ import { createApp, reactive } from "vue";
 import App from "./App.vue";
 
 import router from './router';
-import resourceManager from "../../../doppio/libs/resourceManager";
-import call from "../../../doppio/libs/controllers/call";
-import socket from "../../../doppio/libs/controllers/socket";
-import Auth from "../../../doppio/libs/controllers/auth";
+import resourceManager from "../../doppio/libs/resourceManager";
+import call from "../../doppio/libs/controllers/call";
+import socket from "../../doppio/libs/controllers/socket";
+import Auth from "../../doppio/libs/controllers/auth";
 
 const app = createApp(App);
 const auth = reactive(new Auth());
